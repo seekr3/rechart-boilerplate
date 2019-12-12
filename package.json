@@ -1,0 +1,17 @@
+{
+  "name": "data-vis",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^15.3.0 || ^16.0.0-alpha",
+    "react-dom": "^15.3.0 || ^16.0.0-alpha",
+    "recharts": "1.8.5"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  },
+  "scripts": {
+    "dev": "node_modules/.bin/parcel src/index.html"
+  }
+}
